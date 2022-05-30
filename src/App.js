@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+// there are two types of components
+// - class
+// - function
+
 function App() {
+  //return is mandatory
   return (
+    // return has only one object
     <div className="App">
       <header className="App-header">
+        {/* todas as variaveis sao envolvidas por chavetas */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,6 +25,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        Here we are going to do something
+      </div>
+      <footer>
+        &copy Rodrigo Mendes
+      </footer>      
     </div>
   );
 }
